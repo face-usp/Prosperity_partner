@@ -10,7 +10,7 @@ const Home = () => {
           alt="Background"
           className="w-full h-full object-cover rounded-md"
         />
-        <div className="absolute bottom-30 left-12">
+        <div className="absolute bottom-50 left-25">
           <div className="flex flex-col items-center justify-center text-center space-y-4">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-3xl">
               Driven by Trust,
@@ -23,10 +23,6 @@ const Home = () => {
               <br />
               to providing transparent, goal-based investment solutions.
             </p>
-
-            <button className="bg-amber-400 text-black px-5 py-3 text-sm sm:text-base rounded shadow-md hover:bg-amber-200 transition">
-              About Us
-            </button>
           </div>
         </div>
       </div>
