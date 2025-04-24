@@ -4,14 +4,25 @@ import { FaInstagram, FaEnvelope, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-200 py-8 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 sm:space-x-4">
+        {/* Left: Contact Info */}
         <div className="text-center sm:text-left">
           <p className="text-sm text-gray-400">
             Phone: <span className="text-gray-200">+91 99601 63587</span>
           </p>
+          <p className="text-sm text-gray-400">
+            Email:{" "}
+            <a
+              href="mailto:prosperitypartners@gmail.com"
+              className="text-gray-200 hover:text-red-400 transition"
+            >
+              prosperitypartners@gmail.com
+            </a>
+          </p>
         </div>
 
-        <div className="flex space-x-6 mt-4 sm:mt-0">
+        {/* Center: Social Icons */}
+        <div className="flex space-x-6">
           <a
             href="https://www.instagram.com/prosperitypartners09?igsh=MXYwZWdydnNxcHZmNg=="
             target="_blank"
@@ -34,6 +45,13 @@ const Footer = () => {
           >
             <FaEnvelope size={20} />
           </a>
+        </div>
+
+        {/* Right: Copyright */}
+        <div className="text-center sm:text-right">
+          <p className="text-sm text-gray-400">
+            © 2025 Prosperity Partners. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
