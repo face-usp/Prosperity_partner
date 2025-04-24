@@ -13,9 +13,9 @@ const Home = () => {
         <div className="absolute bottom-50 left-25">
           <div className="flex flex-col items-center justify-center text-center space-y-4">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-3xl">
-              Driven by Trust,
+              Crafting Wealth,
               <br />
-              Built on Expertise
+              Backed by Wisdom
             </h2>
 
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed">

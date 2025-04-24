@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ChevronDown, ChevronUp } from "lucide-react"; // Optional: for toggle icons
 
 const services = [
   {
@@ -26,41 +27,57 @@ const services = [
     description:
       "Structured investment planning customized to achieve specific financial goals like education, retirement, or home buying.",
   },
+  {
+    title: "Secure Income Options: NCDs & Corporate FDs",
+    description:
+      "Explore stable and fixed-return opportunities through Non-Convertible Debentures (NCDs) and Corporate Fixed Deposits. Ideal for risk-averse investors seeking predictable income with higher interest than traditional savings.",
+  },
 ];
 
 const Service = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleDescription = (index) => {
+  const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
-    <section className="py-16 px-6 bg-gray-50">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-serif text-gray-900 mb-4">
+    <section className="py-20 px-6 bg-gray-50">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl font-serif text-center text-gray-900 mb-4">
           Our Services
         </h2>
-        <p className="text-lg sm:text-xl text-gray-600 mb-10">
+        <p className="text-lg sm:text-xl text-gray-600 text-center mb-10">
           Tailored solutions designed to elevate your financial journey.
         </p>
 
-        <ul className="space-y-4 text-left sm:text-center">
+        <div className="space-y-4">
           {services.map((service, index) => (
-            <li
+            <div
               key={index}
-              onClick={() => toggleDescription(index)}
-              className="bg-white shadow-sm rounded p-4 cursor-pointer hover:bg-gray-100 transition"
+              className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all"
             >
-              <div className="font-medium text-gray-800">{service.title}</div>
-              {openIndex === index && (
-                <p className="text-gray-600 mt-2 text-sm sm:text-base transition-all duration-300 ease-in-out">
-                  {service.description}
-                </p>
-              )}
-            </li>
+              <button
+                onClick={() => toggleAccordion(index)}
+                className="w-full flex justify-between items-center text-left p-4 font-medium text-gray-800 hover:bg-gray-100 transition"
+              >
+                <span>{service.title}</span>
+                {openIndex === index ? (
+                  <ChevronUp size={20} />
+                ) : (
+                  <ChevronDown size={20} />
+                )}
+              </button>
+              <div
+                className={`px-4 py-4 text-gray-600 text-sm sm:text-base transition-all duration-300 ease-in-out ${
+                  openIndex === index ? "block" : "hidden"
+                }`}
+              >
+                {service.description}
+              </div>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );
