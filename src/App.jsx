@@ -4,7 +4,7 @@ import Home from "./components/Home/Home";
 import Service from "./components/Services/Service";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
-import Feedback from "./components/About/FeedBack";
+import Feedback from "./components/Feedback/Feedback";
 
 const App = () => {
   return (
