@@ -28,7 +28,7 @@ const services = [
       "Structured investment planning customized to achieve specific financial goals like education, retirement, or home buying.",
   },
   {
-    title: "Secure Income Options: NCDs & Corporate FDs",
+    title: "Debt Products: NCDs & Corporate FDs",
     description:
       "Explore stable and fixed-return opportunities through Non-Convertible Debentures (NCDs) and Corporate Fixed Deposits. Ideal for risk-averse investors seeking predictable income with higher interest than traditional savings.",
   },

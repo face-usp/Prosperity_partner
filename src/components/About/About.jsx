@@ -1,25 +1,94 @@
 import React from "react";
-import dummy_profile from "../../assets/dummy_profile.jpg";
+import logoBg from "../../assets/logoBg.png";
+import user from "../../assets/user.png";
+
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center p-6 md:p-12 bg-white min-h-screen">
-      {/* Image Section */}
-      <div className="w-full md:w-1/2 flex justify-center mb-2 md:mb-0 md:mr-4">
-        <img
-          src={dummy_profile}
-          alt="Your Name"
-          className="w-64 h-64 object-cover rounded-full shadow-lg"
-        />
+    <div className="bg-white min-h-screen flex flex-col items-center justify-center px-6 md:px-12 py-10 space-y-12">
+      {/* First Section */}
+      <div className="flex flex-col md:flex-row items-center w-full max-w-6xl gap-8">
+        {/* Image */}
+        <div className="flex justify-center w-full md:w-1/2">
+          <img
+            src={logoBg}
+            alt="Prosperity Partners Logo"
+            className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
+          />
+        </div>
+
+        {/* Text */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+            Prosperity Partners
+          </h2>
+          <p className="text-lg text-gray-600 leading-relaxed text-justify">
+            Prosperity Partners is a client-focused financial advisory firm
+            specializing in investment planning and wealth management. With a
+            decade of experience, we provide personalized solutions across
+            mutual funds, tax planning, and financial goal setting. Our mission
+            is to build long-term financial prosperity for individuals and
+            families through trust, expertise, and dedicated service.
+          </p>
+        </div>
       </div>
 
-      {/* Text Section */}
-      <div className="w-full md:w-1/2 text-center md:text-left">
-        <p className="text-lg sm:text-xl text-gray-600 leading-relaxed drop-shadow-md text-justify">
-          Mr. Deepak Shah, Founder of Prosperity Partners, combines 21 years of
-          engineering experience with a passion for investments. Today, he
-          manages 200+ clients, offering strategic, goal-driven financial
-          planning with a personal touch.
-        </p>
+      {/* Divider */}
+      <div className="h-px w-3/4 bg-gray-200" />
+
+      {/* Second Section */}
+      <div className="flex flex-col md:flex-row items-center w-full max-w-6xl gap-8">
+        {/* Text */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+            Mr. Deepak Shah
+          </h2>
+          <p className="text-lg text-gray-600 leading-relaxed text-justify">
+            Mr. Deepak Shah blends 21 years of engineering expertise with a
+            strong passion for investments, managing over 200 clients with
+            strategic, goal-driven financial planning. His experience at
+            renowned organizations like John Deere, Bharat Forge, and Piaggio
+            shaped his process-oriented approach, which he now applies to wealth
+            management.
+          </p>
+        </div>
+
+        {/* Image */}
+        <div className="flex justify-center w-full md:w-1/2">
+          <img
+            src={user}
+            alt="Mr. Deepak Shah"
+            className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
+          />
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div className="h-px w-3/4 bg-gray-200" />
+
+      {/* Third section*/}
+      <div className="flex flex-col md:flex-row items-center w-full max-w-6xl gap-8">
+        {/* Image */}
+        <div className="flex justify-center w-full md:w-1/2">
+          <img
+            src={user}
+            alt="Mrs. Priyanka Shah"
+            className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
+          />
+        </div>
+
+        {/* Text */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+            Mrs. Priyanka Shah
+          </h2>
+          <p className="text-lg text-gray-600 leading-relaxed text-justify">
+            Priyanka Deepak Shah , bringing over 10 years of expertise in
+            investment planning, backed by a B.Com and DTL qualification. She
+            leads client servicing and operations, closely tracks mutual fund
+            industry updates, and oversees recruitment and training of new team
+            members.
+          </p>
+        </div>
       </div>
     </div>
   );

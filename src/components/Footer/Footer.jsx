@@ -13,10 +13,10 @@ const Footer = () => {
           <p className="text-sm text-gray-400">
             Email:{" "}
             <a
-              href="mailto:prosperitypartners@gmail.com"
+              href="mailto:prosperitypartners09@gmail.com"
               className="text-gray-200 hover:text-red-400 transition"
             >
-              prosperitypartners@gmail.com
+              prosperitypartners09@gmail.com
             </a>
           </p>
         </div>
@@ -40,7 +40,7 @@ const Footer = () => {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="mailto:prosperitypartners@gmail.com"
+            href="mailto:prosperitypartners09@gmail.com"
             className="hover:text-red-400 transition"
           >
             <FaEnvelope size={20} />
