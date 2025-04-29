@@ -19,7 +19,7 @@ const App = () => {
       <div id="about">
         <About />
       </div>
-      <div id="feedback">
+      <div id="feedback_1">
         <Feedback />
       </div>
       <div id="contact">

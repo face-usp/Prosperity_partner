@@ -34,7 +34,7 @@ const Navbar = () => {
             <a href="#about" className="hover:text-amber-600 transition">
               About
             </a>
-            <a href="#feedback" className="hover:text-amber-600 transition">
+            <a href="#feedback_1" className="hover:text-amber-600 transition">
               Feedback
             </a>
             <a href="#contact" className="hover:text-amber-600 transition">
