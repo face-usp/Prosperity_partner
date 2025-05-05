@@ -29,7 +29,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-pink-500 transition"
           >
-            <FaInstagram size={20} />
+            <FaInstagram size={40} />
           </a>
           <a
             href="https://www.linkedin.com/in/deepak-shah-investment-planning/"
@@ -37,13 +37,13 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition"
           >
-            <FaLinkedin size={20} />
+            <FaLinkedin size={40} />
           </a>
           <a
             href="mailto:prosperitypartners09@gmail.com"
             className="hover:text-red-400 transition"
           >
-            <FaEnvelope size={20} />
+            <FaEnvelope size={40} />
           </a>
         </div>
 

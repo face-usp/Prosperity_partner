@@ -18,7 +18,7 @@ const Navbar = () => {
             className="flex items-center gap-2 sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2"
           >
             <img src={logoBg} alt="Logo" className="h-[90px] w-[90px]" />
-            <h1 className="font-bold text-7xl sm:text-xl whitespace-nowrap">
+            <h1 className="font-bold text-9xl sm:text-xl whitespace-nowrap">
               Prosperity Partners
             </h1>
           </a>
