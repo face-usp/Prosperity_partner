@@ -3,15 +3,11 @@ import { ChevronDown, ChevronUp } from "lucide-react"; // Optional: for toggle i
 
 const services = [
   {
-    title: "Comprehensive Financial Review",
+    title: "Portfolio - Comprehensive Review and Health Checkup",
     description:
       "A complete analysis of your income, expenses, assets, and liabilities to determine financial health.",
   },
-  {
-    title: "Portfolio Health Check",
-    description:
-      "We evaluate your current investments to ensure alignment with your goals and risk profile.",
-  },
+
   {
     title: "Risk Assessment & Profiling",
     description:

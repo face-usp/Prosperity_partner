@@ -52,6 +52,9 @@ const Footer = () => {
           <p className="text-sm text-gray-400">
             © 2025 Prosperity Partners. All rights reserved.
           </p>
+          <p className="mt-2 text-sm text-gray-400">
+            <a href="mailto:uspface@gmail.com">Designed by USPFace</a>
+          </p>
         </div>
       </div>
     </footer>

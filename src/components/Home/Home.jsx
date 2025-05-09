@@ -4,7 +4,7 @@ import BackGround1 from "../../assets/BackGround1.jpg";
 const Home = () => {
   return (
     <div className="pt-[80px]">
-      <div className="relative overflow-hidden p-8 sm:p-6 md:p-8 w-full  h-[620px]">
+      <div className="relative overflow-hidden p-8 sm:p-6 md:p-8 w-full  h-[670px]">
         <img
           src={BackGround1}
           alt="Background"
@@ -18,10 +18,12 @@ const Home = () => {
               Backed by Wisdom
             </h2>
 
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed">
-              We are a client-focused mutual fund distributor committed
-              <br />
-              to providing transparent, goal-based investment solutions.
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed  text-left sm:text-center">
+              We are a client-focused mutual fund distributor
+              <br className="block sm:hidden" />
+              committed to providing transparent,
+              <br className="block sm:hidden" />
+              goal-based investment solutions.
             </p>
           </div>
         </div>

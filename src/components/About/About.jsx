@@ -1,5 +1,7 @@
 import React from "react";
 import logoBg from "../../assets/logoBg.png";
+import Deepak_Shah from "../../assets/Deepak_shah.jpg";
+import Priyanka_shah from "../../assets/priyanka_shah.jpg";
 
 const About = () => {
   return (
@@ -54,7 +56,7 @@ const About = () => {
         {/* Image */}
         <div className="flex justify-center w-full md:w-1/2">
           <img
-            src={logoBg}
+            src={Deepak_Shah}
             alt="Mr. Deepak Shah"
             className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
           />
@@ -69,7 +71,7 @@ const About = () => {
         {/* Image */}
         <div className="flex justify-center w-full md:w-1/2">
           <img
-            src={logoBg}
+            src={Priyanka_shah}
             alt="Mrs. Priyanka Shah"
             className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
           />
