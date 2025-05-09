@@ -4,7 +4,7 @@ import BackGround1 from "../../assets/BackGround1.jpg";
 const Home = () => {
   return (
     <div className="pt-[80px]">
-      <div className="relative overflow-hidden p-5 sm:p-6 md:p-8 w-full  h-[670px]">
+      <div className="relative overflow-hidden px-5 py-8 sm:p-6 md:p-8 w-full  h-[670px]">
         <img
           src={BackGround1}
           alt="Background"
