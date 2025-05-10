@@ -46,10 +46,11 @@ const About = () => {
           <p className="text-lg text-gray-600 leading-relaxed text-justify">
             Mr. Deepak Shah blends 21 years of engineering expertise with a
             strong passion for investments, managing over 200 clients with
-            strategic, goal-driven investment engineering. His experience at
-            renowned organizations like John Deere, Bharat Forge, and Piaggio
-            shaped his process-oriented approach, which he now applies to wealth
-            management.
+            strategic, goal-driven investment planning. Deepak has worked in
+            renowned organizations like – John Deere , Bharat Forge and Piaggio
+            – where he learnt to become process oriented. This process-oriented
+            approach of engineering industry helps for Investment planning of
+            the clients – which he calls it as “Investment engineering”.
           </p>
         </div>
 

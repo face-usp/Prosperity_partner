@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* Logo and title */}
           <a
             href="#"
-            className="flex items-center gap-2 sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2"
+            className="flex items-center justify-start gap-2 mr-10 sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2"
           >
             <img src={logoBg} alt="Logo" className="h-[100px] w-[100px]" />
             <h1 className="font-bold text-3xl sm:text-lg md:text-2xl lg:text-3xl  whitespace-normal">
@@ -33,9 +33,6 @@ const Navbar = () => {
             </a>
             <a href="#about" className="hover:text-amber-600 transition">
               About
-            </a>
-            <a href="#feedback_1" className="hover:text-amber-600 transition">
-              Feedback
             </a>
             <a href="#contact" className="hover:text-amber-600 transition">
               Contact
