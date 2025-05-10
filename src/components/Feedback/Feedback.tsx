@@ -15,7 +15,7 @@ const Feedback = () => {
         {/* Right Side: Feedback & Name */}
         <div className="w-full md:w-2/3 p-10 flex flex-col items-center justify-center text-center">
           <p className="text-gray-700 italic text-xl mb-6">
-            “It's the Best Financial Planning Firm”
+            “It's the Best Investment Engineering Firm”
           </p>
           <p className="font-semibold text-amber-600 text-lg">USP Face</p>
         </div>

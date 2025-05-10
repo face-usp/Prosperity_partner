@@ -44,7 +44,7 @@ const Service = () => {
           Our Services
         </h2>
         <p className="text-lg sm:text-xl text-gray-600 text-center mb-10">
-          Tailored solutions designed to elevate your financial journey.
+          Tailored solutions designed to elevate your Investment journey.
         </p>
 
         <div className="space-y-4">

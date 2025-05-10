@@ -10,20 +10,19 @@ const Home = () => {
           alt="Background"
           className="w-full h-full object-cover rounded-md"
         />
-        <div className="absolute bottom-50 left-25">
-          <div className="flex flex-col items-center justify-center text-center space-y-4">
-            <h2 className="text-3xl sm:text-3xl md:text-5xl font-serif text-gray-900 leading-tight max-w-3xl text-left sm:text-left">
+        <div className="absolute inset-0 flex items-center justify-start px-4 md:px-12">
+          <div className="flex flex-col items-center justify-center text-center space-y-4  max-w-3xl mx-auto lg:ml-20">
+            <h2 className="text-3xl sm:text-3xl md:text-5xl font-serif text-gray-900 leading-tight">
               Crafting Wealth,
               <br />
               Backed by Wisdom
             </h2>
 
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed  text-left sm:text-center">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed  ">
               We are a client-focused mutual fund distributor
-              <br className="block sm:hidden" />
-              committed to providing transparent,
-              <br className="block sm:hidden" />
-              goal-based investment solutions.
+              <br />
+              committed to providing transparent, goal-based investment
+              solutions.
             </p>
           </div>
         </div>

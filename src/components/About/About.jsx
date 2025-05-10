@@ -46,7 +46,7 @@ const About = () => {
           <p className="text-lg text-gray-600 leading-relaxed text-justify">
             Mr. Deepak Shah blends 21 years of engineering expertise with a
             strong passion for investments, managing over 200 clients with
-            strategic, goal-driven financial planning. His experience at
+            strategic, goal-driven investment engineering. His experience at
             renowned organizations like John Deere, Bharat Forge, and Piaggio
             shaped his process-oriented approach, which he now applies to wealth
             management.
