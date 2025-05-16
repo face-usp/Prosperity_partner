@@ -17,6 +17,13 @@ const Footer = () => {
               className="text-gray-200 hover:text-red-400 transition"
             >
               prosperitypartners09@gmail.com
+            </a>{" "}
+            /{" "}
+            <a
+              href="mailto:shahdeepakd@gmail.com"
+              className="text-gray-200 hover:text-red-400 transition"
+            >
+              shahdeepakd@gmail.com
             </a>
           </p>
         </div>

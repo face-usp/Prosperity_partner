@@ -16,10 +16,14 @@ const Home = () => {
               Crafting Wealth, Backed by Wisdom
             </h2>
 
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed text-left ml-3">
-              We are a client-focused mutual fund distributor committed to
-              providing transparent, goal-based investment solutions.
-            </p>
+            <div className="mr-6">
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed text-left">
+                We are a client-focused mutual fund distributor committed to
+              </p>
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed text-left">
+                providing transparent, goal-based investment solutions.
+              </p>
+            </div>
           </div>
         </div>
       </div>
