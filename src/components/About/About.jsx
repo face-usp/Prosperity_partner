@@ -23,7 +23,7 @@ const About = () => {
             Prosperity Partners
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed text-justify">
-            Prosperity Partners is a client-focused financial advisory firm
+            Prosperity Partners is a client-focused Investment advisory firm
             specializing in investment planning and wealth management. With a
             decade of experience, we provide personalized solutions across
             mutual funds, tax planning, and financial goal setting. Our mission
