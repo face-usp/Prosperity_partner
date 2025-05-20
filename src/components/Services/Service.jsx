@@ -16,7 +16,7 @@ const services = [
   {
     title: "Gap Analysis & Optimization",
     description:
-      "Identifying gaps in your current financial plan and providing optimized solutions.",
+      "Identifying gaps in your current Investment plan and providing optimized solutions.",
   },
   {
     title: "Goal-Oriented Investment Planning",
